@@ -1,10 +1,10 @@
 ---
-- name: samsoung play book
+- name: lg play book
   hosts: masternode
   
 
   tasks:
-    - name: copy samsoung.yaml
+    - name: copy lg.yaml
       copy:
         src: lg.yaml
         dest: /home/vagrant/k8s
